@@ -1,0 +1,21 @@
+{{ define "main" -}}
+<div class="post container" style="min-height: 650px;">
+	<br>
+  <h1 class="text-center">{{ .Title }}</h1>
+
+  {{ if ne .Type "page" -}}
+  <div class="post-date text-center">
+    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "Jan 2, 2006" }}</time> &middot; {{ .ReadingTime }} min read
+  </div>
+  <hr>
+  {{- end }}
+
+  {{ .Content }}
+</div>
+
+
+<div class="container">
+	<!-- put here your disqus code -->
+</div>
+
+{{- end }}

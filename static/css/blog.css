@@ -1,0 +1,81 @@
+.post img {
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.post p code {
+	padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0px;
+    padding-left: 0px;
+	padding-right: 0.2em;
+	padding-right: 0.2em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(27,31,35,0.05);
+	border-radius: 3px;
+}
+
+.post p code:before {
+	letter-spacing: -0.2em;
+    content: "\00a0";
+}
+
+.post p code:after {
+	letter-spacing: -0.2em;
+    content: "\00a0";
+}
+
+.post pre {
+	background-color: #eff2ef;
+	padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 10px;
+	padding-right: 0.2em;
+}
+
+.post pre code {
+	font-size: 1rem;
+}
+
+.post p {
+	font-size: 1.20rem;
+}
+
+.post .post-date {
+	font-size: 1.20rem;
+}
+
+
+.post table {
+	width: 100%;
+}
+
+.post table th {
+    font-weight: 600;
+}
+
+.post table th, .post table td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+.post ul {
+	font-size: 1.20rem;
+}
+
+.posts li {
+	font-size: 1.20rem;
+}
+
+#content {
+	min-height: 650px;
+}

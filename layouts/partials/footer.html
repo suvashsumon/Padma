@@ -1,0 +1,30 @@
+<footer class="page-footer font-small special-color-light pt-4 bg-primary">
+
+  <!-- Footer Elements -->
+  <div class="container" style="color: white;">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      {{ range $item := .Site.Params.socialIcons }}
+      <li class="list-inline-item" style="font-size: 2rem;">
+      <a class="btn-floating btn-fb mx-1 text-light" href="{{ $item.url }}" rel="me" title="{{ $item.title }}" target="_blank">
+        <i class="fab {{ $item.icon }}" aria-hidden="true"></i>
+      </a>
+      </li>
+      {{ end }}
+    </ul>
+
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-light">&copy; {{ $.Site.Params.Copyright }} {{ now.Format "2006"}}
+    {{ with $.Site.Params.BuiltWith -}}
+    &middot; Build with <a class="text-warning" href="https://gohugo.io/" target="_blank">Hugo</a> & <a class="text-warning" href="https://themes.gohugo.io/soho/" target="_blank">Padma</a> theme
+    {{- end }}
+  </div>
+  <!-- Copyright -->
+
+</footer>
