@@ -1,7 +1,7 @@
 # Padma
 Padma is a minimal hugo theme for blogger and writer made with bootstrap 4.
 
-![Screenshot](images/screenshot.jpg)
+![Screenshot](screenshot.jpg)
 
 # Requirements
 You need to connect with internet to use bootsrap 4 from their cdn.
