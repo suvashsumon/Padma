@@ -1,6 +1,6 @@
 # Padma
 Padma is a minimal hugo theme for blogger and writer made with bootstrap 4.
-
+View Demo : https://padma-hugo.netlify.app/
 
 ![Screenshot](screenshot.jpg)
 
